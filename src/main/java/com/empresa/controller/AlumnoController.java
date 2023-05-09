@@ -41,7 +41,7 @@ public class AlumnoController {
 	public List<Alumno> lista(String filtro) {
 		return service.listaAlumnoPorNombreLike(filtro.trim() + "%");
 	}
-
+ 
 	
 	@ResponseBody
 	@RequestMapping("/buscaPorDni")
